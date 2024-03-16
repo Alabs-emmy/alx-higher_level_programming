@@ -21,9 +21,9 @@ int check_cycle(listint_t *list)
 
 	while (list != NULL)
 	{
-		if (list == check)
+		if (check == list)
 			return (1);
-		if (list != check)
+		if (check != NULL)
 		{
 			if (check->next != NULL && (check->next)->next != NULL)
 			{
