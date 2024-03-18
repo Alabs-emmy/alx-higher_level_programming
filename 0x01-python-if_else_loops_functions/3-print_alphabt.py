@@ -5,5 +5,6 @@
  #     print(chr(ord('a') + i))
         
 for i in range(26):
-    if (ord('a') + i) != 101 and (ord('a') + i) != 113:
+    ascii_b = chr(ord('a') + i)
+    if (ascii_b != 'e' and ascii_b  != 'q'):
         print(chr(ord('a') + i), end="")
