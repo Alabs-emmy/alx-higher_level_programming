@@ -2,4 +2,5 @@
 
 
 for i in range(26):
-    print(chr(ord('a') + i), end="")
+    ascii_a = chr(ord('a') + i)
+    print("{}".format(ascii_a), end="")
