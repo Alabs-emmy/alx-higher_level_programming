@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 
 def fizzbuzz():
@@ -11,4 +10,3 @@ def fizzbuzz():
             print("Buzz", end=' ')
         else:
             print(i, end=' ')
-
