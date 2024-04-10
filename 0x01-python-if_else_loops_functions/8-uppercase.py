@@ -9,5 +9,5 @@ def uppercase(str):
         if (97 <= k <= 122):
             k -= 32
             i = chr(k)
-        print("{}".fornat(i), end="")
+        print("{}".format(i), end="")
     print()
