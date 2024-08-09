@@ -1,2 +1,4 @@
 #!/usr/bin/python3
-print("#pyhtoniscool")
+
+if (__name__ != "__main__"):
+    print("#pythoniscool")
