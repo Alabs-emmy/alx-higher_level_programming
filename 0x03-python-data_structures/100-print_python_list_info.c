@@ -19,11 +19,11 @@ void print_python_list_info(PyObject *p)
 	len = PyList_Size(p);
 	alloc = ((PyListObject *)p)->allocated;
 	printf("{*} Size of the Python List =%ld\n", len);
-	printf("{*} Allocated = %1d\n", alloc);
+	printf("{*} Allocated = %ld\n", alloc);
 	for (index = 0; index < len; index++)
 	{
 		temp = PyList_GetItem(p, index);
 		type = Py_TYPE(temp);
-		printf("Element %1d: %s/n", index, type->tp_name)
+		printf("Element %ld: %s/n", index, type->tp_name)
 	}
 }
