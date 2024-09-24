@@ -24,6 +24,6 @@ void print_python_list_info(PyObject *p)
 	{
 		temp = PyList_GetItem(p, index);
 		type = Py_TYPE(temp);
-		printf("Element %ld: %s/n", index, type->tp_name);
+		printf("Element %ld: %s\n", index, type->tp_name);
 	}
 }
